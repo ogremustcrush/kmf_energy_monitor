@@ -19,6 +19,10 @@ Connects directly to the device over TCP (via its built-in WiFi adapter) and par
 - Load switch control
 - Automatic reconnection on connection loss
 
+## Auto-discovery
+
+If your KM-F is on the same network as Home Assistant, it will be detected automatically when it connects — no manual setup needed. HA listens for DHCP requests from the device (identified by its Espressif MAC prefix and `KMF*` hostname) and will show a notification prompting you to confirm the setup.
+
 ## Installation
 
 ### HACS (recommended)
