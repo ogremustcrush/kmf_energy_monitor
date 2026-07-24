@@ -47,3 +47,13 @@ You will be prompted for:
 ## Supported Devices
 
 Tested with the **Junctek KM-F** series. Other Junctek models using the same TCP protocol may also work.
+
+## Related Projects
+
+- **[Junctek-KM-F-Series-BLE-scanner-EspHome](https://github.com/bootuz-dinamon/Junctek-KM-F-Series-BLE-scanner-EspHome)** — ESPHome integration using BLE instead of TCP (by bootuz-dinamon)
+- **[ha-addon-km140f](https://github.com/bootuz-dinamon/ha-addon-km140f)** — Home Assistant addon for the KM-F (by bootuz-dinamon; polls every 15s via TCP)
+- **[esphome-junctek_kgf](https://github.com/tfyoung/esphome-junctek_kgf)** — ESPHome integration for the older KG-F series via UART (by tfyoung)
+
+## Credits
+
+The TCP protocol (`:A=`, `:B=`, `:C=` frame format) was reverse-engineered from discussion in this [DIY Solar Power Forum thread](https://diysolarforum.com/threads/junctek-km140f-to-solar-assistant.96901/).
