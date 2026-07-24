@@ -1,10 +1,14 @@
 from __future__ import annotations
 
+from typing import TYPE_CHECKING
+
 import voluptuous as vol
 
 from homeassistant import config_entries
-from homeassistant.components.dhcp import DhcpServiceInfo
 from homeassistant.data_entry_flow import FlowResult
+
+if TYPE_CHECKING:
+    from homeassistant.components.dhcp import DhcpServiceInfo
 
 from .const import (
     DOMAIN,
