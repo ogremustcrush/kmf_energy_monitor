@@ -1,7 +1,7 @@
 {
   "domain": "kmf_energy_monitor",
   "name": "KM-F Energy Monitor",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "documentation": "https://github.com/ogremustcrush/kmf_energy_monitor",
   "requirements": [],
   "codeowners": ["@ogremustcrush"],
