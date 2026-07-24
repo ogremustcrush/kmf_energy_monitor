@@ -50,7 +50,7 @@ Tested with the **Junctek KM-F** series. Other Junctek models using the same TCP
 
 ## Related Projects
 
-- **[Junctek-KM-F-Series-BLE-scanner-EspHome](https://github.com/bootuz-dinamon/Junctek-KM-F-Series-BLE-scanner-EspHome)** — ESPHome integration using BLE instead of TCP (by bootuz-dinamon)
+- **[Junctek-KM-F-Series-BLE-scanner-EspHome](https://github.com/bootuz-dinamon/Junctek-KM-F-Series-BLE-scanner-EspHome)** — ESPHome integration using BLE rather than the built-in WiFi TCP interface (by bootuz-dinamon)
 - **[ha-addon-km140f](https://github.com/bootuz-dinamon/ha-addon-km140f)** — Home Assistant addon for the KM-F (by bootuz-dinamon; polls every 15s via TCP)
 - **[esphome-junctek_kgf](https://github.com/tfyoung/esphome-junctek_kgf)** — ESPHome integration for the older KG-F series via UART (by tfyoung)
 
