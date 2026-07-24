@@ -1,0 +1,21 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up KM-F Energy Monitor",
+        "data": {
+          "host": "IP Address",
+          "port": "Port",
+          "reconnect_delay": "Reconnect delay (seconds)"
+        }
+      },
+      "dhcp_confirm": {
+        "title": "KM-F Energy Monitor discovered",
+        "description": "Found **{hostname}** at `{host}`. Do you want to set it up?"
+      }
+    },
+    "abort": {
+      "already_configured": "This device is already configured."
+    }
+  }
+}
